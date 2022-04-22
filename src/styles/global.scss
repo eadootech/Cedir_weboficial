@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding:0;
+
+    box-sizing: border-box;
+}
+
+
+
+:root{
+    --background:#fff;
+    --shape:#000;
+    --gray_dark:#767676;
+    --gray_input:#8D8D8D;
+    --green_light:#5ACC86;
+    --border:#E5E5E5;
+}
+
+
+input, textarea {
+    font: 400 16px "Spartan", "Helvetica Neue",helvetica,sans-serif;
+}
+
+@media (min-width: 720px){
+    html{
+        font-size: 93.75%;
+    }
+}
+
+@media (min-width: 440px){
+    html{
+        font-size: 87.5%;
+    }
+}
+
+
+body{
+    background:var(--background);
+    color:var(--shape);
+    min-width: 100vw;
+}
+

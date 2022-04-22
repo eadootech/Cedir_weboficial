@@ -1,0 +1,23 @@
+.forms{
+
+    label{
+        font-size:1.2rem;
+        font-family: "Spartan", "Helvetica Neue",helvetica,sans-serif;
+        font-weight:500;
+        color:var(--gray_dark);
+        margin-left:1.5rem;
+        
+
+    }
+
+    input{
+        border:1px solid var(--gray_dark);
+        width:100%;
+        height:4rem;
+        border-radius:2.5rem;
+        margin-bottom:4rem;
+        
+
+    }
+
+}
